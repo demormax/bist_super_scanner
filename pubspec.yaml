@@ -1,7 +1,7 @@
-name: bist_super_scanner
-description: A simple BIST analysis app
-publish_to: "none"
-version: 1.0.0+1
+
+name: bist_superscanner
+description: BIST için hisse tarayıcı prototipi
+publish_to: 'none'
 
 environment:
   sdk: ">=2.17.0 <3.0.0"
@@ -12,3 +12,5 @@ dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/
